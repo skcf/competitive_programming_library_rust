@@ -1,5 +1,5 @@
 [package]
-name = "cp_library_rust"
+name = "competitive_programming_library_rust"
 version = "0.1.0"
 edition = "2018"
 
