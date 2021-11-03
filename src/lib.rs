@@ -5,3 +5,4 @@ pub mod fenwicktree;
 pub mod math;
 pub mod modint;
 pub mod permutation;
+pub mod utils;
