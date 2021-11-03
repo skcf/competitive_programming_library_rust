@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 fn dijkstra(g: &Vec<Vec<(usize, i64)>>, n: usize, src: usize) -> Vec<i64> {
     let mut dp = vec![i64::max_value() / 2; n];
     dp[src] = 0;
