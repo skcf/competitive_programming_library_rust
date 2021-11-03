@@ -73,3 +73,18 @@ fn counter_vs(arr: Vec<String>) -> std::collections::HashMap<String, usize> {
     }
     return cnt;
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn chmax_test() {
+        let mut a: usize = 0;
+        let res = chmax!(a, 10);
+        assert_eq!(a, 10);
+        assert_eq!(res, true);
+
+        let res = chmax!(a, 0);
+        assert_eq!(a, 10);
+        assert_eq!(res, false);
+    }
+}
